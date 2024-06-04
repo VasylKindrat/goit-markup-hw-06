@@ -687,11 +687,15 @@ img {
 }
 
 .modal {
+  padding: 72px 24px 24px 24px;
   width: 408px;
-  height: 576px;
   background-color: #fcfcfc;
   border-radius: 4px;
   position: absolute;
+  padding-top: 72px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -721,12 +725,10 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 40px;
   margin-bottom: 16px;
 }
 
 .modal-form {
-  padding: 24px;
   border-radius: inherit;
   background-color: #ffffff;
 }
@@ -812,7 +814,7 @@ img {
   color: rgba(46, 47, 66, 0.4);
   padding-left: 16px;
   padding-top: 8px;
-  padding-bottom: 98px;
+  padding-bottom: 8px;
 }
 
 .modal-close-btn {
@@ -942,7 +944,7 @@ img {
 }
 
 .subscribe-container {
-  margin-left: 80px;
+  margin-left: auto;
   width: 453px;
   min-height: 80px;
 }
